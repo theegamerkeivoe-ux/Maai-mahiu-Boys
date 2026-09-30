@@ -1,0 +1,7 @@
+{
+  "name": "Maai Mahiu Boys High School",
+  "description": "Official portal and website for Maai Mahiu Boys High School in Kenya. Fostering discipline, academic excellence, leadership, character, and brotherhood.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-serif: 'Newsreader', Georgia, Cambria, 'Times New Roman', Times, serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F8F6F0;
+    color: #111513;
+    letter-spacing: -0.011em;
+  }
+}
+
+.font-cinzel {
+  font-family: var(--font-cinzel);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-editorial-serif {
+  font-family: var(--font-serif);
+}
+
+.font-academic-sans {
+  font-family: var(--font-sans);
+}
+
+/* Subtle architectural paper texture & gold accents */
+.bg-warm-canvas {
+  background-color: #F8F6F0;
+}
+
+.bg-institutional-dark {
+  background-color: #0F2E1E;
+}
+
+.bg-charcoal-deep {
+  background-color: #111513;
+}
+
+/* Editorial Drop Cap */
+.drop-cap::first-letter {
+  font-family: var(--font-display);
+  font-size: 3.25rem;
+  line-height: 2.75rem;
+  float: left;
+  margin-right: 0.65rem;
+  margin-top: 0.2rem;
+  color: #0F2E1E;
+  font-weight: 700;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F1EDE4;
+}
+::-webkit-scrollbar-thumb {
+  background: #C8A858;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0F2E1E;
+}
+
+
